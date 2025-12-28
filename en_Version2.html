@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mansouri Security — Security Services in Mainz-Hechtsheim</title>
+  <meta name="description" content="Mansouri Security | Professional security services in Mainz-Hechtsheim. Guarding, patrol, CCTV installation and security consulting." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">MS</div>
+        <div class="brand-text">
+          <h1>Mansouri Security</h1>
+          <p class="tagline">Professional protection in Mainz-Hechtsheim</p>
+        </div>
+      </div>
+
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <div class="lang-select">
+          <label for="langSwitcherEn" class="visually-hidden">Choose language</label>
+          <select id="langSwitcherEn" aria-label="Language">
+            <option value="en" selected>English</option>
+            <option value="de">Deutsch</option>
+          </select>
+        </div>
+
+        <button id="navToggle" class="nav-toggle" aria-expanded="false">☰</button>
+        <ul class="nav-list">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="contact-quick">
+        <a href="tel:+49157333353167" class="phone">📞 0157 333 53167</a>
+        <p class="address">Mainz, Hechtsheim</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h2>Your safety is our priority</h2>
+          <p>We provide guarding, patrol services, CCTV installation and security consulting for businesses and events.</p>
+          <a class="btn-primary" href="#contact">Request consultation</a>
+        </div>
+        <div class="hero-image" aria-hidden="true">
+          <div class="shield">🔒</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="container">
+        <h3>Services</h3>
+        <div class="cards">
+          <article class="card">
+            <h4>Guarding & Patrol</h4>
+            <p>Trained personnel to protect properties, premises and events.</p>
+          </article>
+          <article class="card">
+            <h4>CCTV Installation & Support</h4>
+            <p>Design, installation and monitoring of video surveillance systems.</p>
+          </article>
+          <article class="card">
+            <h4>Security Consulting</h4>
+            <p>Risk assessments, tailored security concepts and emergency planning.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h3>About Mansouri Security</h3>
+        <p>We are a local security company in Mainz-Hechtsheim. Our team is experienced and trained—each client receives a custom security plan.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h3>Contact</h3>
+        <div class="contact-grid">
+          <form id="contactForm" class="contact-form" action="#" method="post" novalidate>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" value="+49-" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn-primary">Send message</button>
+            <p class="form-note">Or call us: <a href="tel:+49157333353167">0157 333 53167</a></p>
+            <p class="form-privacy">Note: form needs a back-end to send messages.</p>
+          </form>
+
+          <div class="contact-info">
+            <h4>Contact details</h4>
+            <p><strong>Company:</strong> Mansouri Security</p>
+            <p><strong>Address:</strong> Mainz, Hechtsheim</p>
+            <p><strong>Phone:</strong> <a href="tel:+49157333353167">0157 333 53167</a></p>
+
+            <h4>Map</h4>
+            <iframe title="Map Mainz-Hechtsheim" src="https://www.openstreetmap.org/export/embed.html?bbox=8.197%2C49.962%2C8.321%2C50.003&amp;layer=mapnik" style="border:0;width:100%;height:220px"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Mansouri Security — Mainz, Hechtsheim — <a href="tel:+49157333353167">0157 333 53167</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
